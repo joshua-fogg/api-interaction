@@ -1,0 +1,76 @@
+/*
+#gradient{
+  width: 1700px;
+  height: 1000px;
+  } */
+.body {
+  text-align: center;
+  width: 600px;
+  font-family: 'Spectral', serif;
+}
+.page{
+  width: 99%;
+  height: 99%;
+
+}
+.navBar ul {
+  list-style: none;
+  background-color: orange;
+  position:fixed;
+  max-width: 25%;
+}
+
+.navBar li {
+  float: right;
+  margin: 1%;
+  font-weight: bolder;
+
+}
+
+.navBar a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navBar{
+  background-image: url("http://lorempixel.com/1700/100/");
+  opacity: 0.3;
+  width: 80%;
+  height: 10%;
+  margin-left: 10%;
+  position: relative;
+}
+.icon{}
+.about{
+  opacity: 1;
+  text-color: red;
+}
+.mainContent{
+  height: 80%;
+  width: 90%;
+  text-align:center;
+}
+.quoteBox{
+  width: 70%;
+  margin-left: 20%;
+  border-style:dotted;
+}
+
+.footer{
+  width: 50%;
+  height: 10%;
+  margin-left: 25%;
+  padding-left: 15%;
+  padding-right: 15%;
+  opacity: 0.5;
+  background-color: black;
+}
+#ali{
+  float:left;
+  }
+#josh{
+ float:right;
+}
+/* Radial Menu Below */
+/*                   */
