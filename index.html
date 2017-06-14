@@ -1,75 +1,64 @@
-
 <html lang="en">
+
 <head>
-    <!--  Meta  -->
   <meta charset="UTF-8" />
-  <title>Q-Gen</title>
-  <!--  Styles  -->
+  <title>AJ Q-Gen</title>
+
   <link rel="stylesheet" href="https://cdjns.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
   <link rel="stylesheet" href="https://cdjns.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-    <link rel="stylesheet" href="styles/index.processed.css">
   <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
-
-  <!-- Scripts -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="styles/index.processed.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <script src="js.js"></script>
 
-  </head>
+</head>
 
-  <body>
+<body>
   <div class="page">
-    <div class="navBar">
-      <div class="icon">
-        <img src"http://lorempixel.com/g/100/100/">
-      </div icon>
-      <div class ="about">
-        <ul>
-          <li>about</li>
-          <li>This is where we will put our origin text</li>
-        </ul>
-        </div about>
-    </div navBar>
-    <div class="mainContent">
-      <p>
-        Some Quotes from across generations, now freely available for easy access with random generation.
-      </p>
-      <div class="quoteBox">
-        <p>
-        "Quote goes here"
-        </p>
-      </div quoteBox>
-        <div id='piemenu' data-wheelnav data-wheelnav-slicepath='DonutSlice' data-wheelnav-marker data-wheelnav-markerpath='PieLineMarker' data-wheelnav-rotateoff data-wheelnav-navangle='165' data-wheelnav-titleheight='30' data-wheelnav-cssmode data-wheelnav-init>
-        <div data-wheelnav-navitemicon='check' onmouseup='alert("Place your logic here.");'>
-          </div>
-        <div data-wheelnav-navitemimg='http://pmg.softwaretailoring.net/img/pmg_favicon.png' onmouseup='alert("Place your logic here.");'>
-          </div>
-      <div data-wheelnav-navitemicon='checkbox' onmouseup='alert("Place your logic here.");'>
-          </div>
-      <div data-wheelnav-navitemicon='checked' onmouseup='alert("Place your logic here.");'>
-          </div>
-      <div data-wheelnav-navitemicon='star' onmouseup='alert("Place your logic here.");'>
-          </div>
-      <div data-wheelnav-navitemicon='icons' onmouseup='alert("Place your logic here.");'>
-          </div>
-</div piemenu>
-    </div mainContent>
-    <div class="footer">
-      <div id='ali'><a href="">Ali Github  </a></div>
-      <div id ='josh'><a href="">  Joshua Github</a></div>
-    </div footer>
-  </div page>
+    <div id="gradient">
+      <div class="navBar">
+        <div class="icon">
+          <img src="http://png-4.vector.me/files/images/5/0/50983/aj_thumb.png">
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="default.asp">Home</a></li>
+            <li><a href="news.asp">News</a></li>
+            <li><a href="contact.asp">Contact</a></li>
+            <li><a href="about.asp">About</a></li>
+            <li><a href="https://github.com/orgs/Horoeka-2017/people">Horoeka</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <div class="container-qoute">
+        <p>Some Quotes from across generations, now freely available for easy access with random generation.</p>
+        <br>
+        <p>Here is a small project that two students from Enspiral Developer Academy Auckland put together during Phase 0, to flex the skills they had learnt so far.</p>
+        <br>
+        <button id="button" class="btn btn-default" type="submit">Quote Me!</button>
+        <div class="qoutes">
+          Quote:
+          <div id="quote"></div>
+          <br> Translation:
+          <div id="author"></div>
+        </div>
+      </div>
 
+      <div class="w3-container w3-teal footer">
+        <div class='ali'>
+          <a href="https://github.com/alikahwaji">A</a>
+        </div>
+        <div class='josh'>
+          <a href="https://github.com/joshua-fogg/">J</a>
+        </div>
 
-  <!--
-       ________
-page   |[nav bar  with     [icon] [about: with drop down]
-div    |[main Content                                  ]
-       ||        [Quote box]
-       ||         [Radial Menu]
-       |[ footer with our github links]
-       |______
-  -->
+      </div>
 
-
- <div id="gradient" />
+    </div>
+  </div>
 </body>
+
 </html>
